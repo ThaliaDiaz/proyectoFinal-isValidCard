@@ -78,6 +78,9 @@ do{
     //  console.log(isValidCard(numCard));
       //Cambia el valor de op a verdadero y con eso termina mi ciclo while y acaba el programa
       op=true;
-     }
+    }else{
+      op=false;
+      alert('Error no puede ingresar letras');
+    }
    }
 }while(op==false)

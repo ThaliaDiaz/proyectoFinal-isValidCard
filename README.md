@@ -12,6 +12,7 @@ Si el total de módulo 10 es igual a 0 (si el total termina en cero), entonces e
 ### **Consideraciones Específicas**
 
 Tu código debe estar compuesto por 1 función: **isValidCard**
+
 El usuario no debe poder ingresar un campo vacío
 
 ### DIAGRAMA DE FLUJO

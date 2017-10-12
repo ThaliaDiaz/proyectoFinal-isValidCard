@@ -20,10 +20,10 @@ do{
       var isValidCard= function(numCard){
         //declaración de mis  variables
         //invierte el array arr en el que tenemos cada dígito del número en una posición
-        var arrInvertido=arr.reverse();
+        arr.reverse();
 
         //Muestro en consola el arreglo ya invertido
-        console.log('este es el reverso: '+arrInvertido);
+        console.log('este es el reverso: '+arr);
         //Inicializo las variables que luego utilizaré para almacenar el producto y la suma
         var prod=1;
         var sum=0;

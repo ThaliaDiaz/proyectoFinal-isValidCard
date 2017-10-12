@@ -20,46 +20,4 @@ El usuario no debe poder ingresar un campo vacío
 
 ### PSEUDOCODIGO
 
-*Algoritmo isValidCard
-	Repetir
-		var numCard<-prompt("Ingrese su numero de tarjeta");
-		var arr<-numCard.split('');
-		Si (arr[0]==''|| numCard=='' || numCard.length!==16) Entonces
-			var op<-false;
-		SiNo
-			Si typeof(parseInt(arr[0]))=='number' Entonces
-				Escribir 'El número de tarjeta ingresada es: '+numCard;
-                Funcion msg <- Nombre ( numCard )
-					Escribir arrInvertido <-arr.reverse();
-					var prod<-1;
-					var sum<-0;
-					Para i<-0 Hasta arr.length Con Paso i+1 Hacer
-						Si i%2==0 Entonces
-							prod=arr[i]*2;
-							Si prod<10 Entonces
-								arr[i]<-prod;
-							SiNo
-								resul=Math.floor(prod/10)+(prod%10);
-								arr[i]<-resul;
-							Fin Si
-						SiNo
-							arr[i]<-arr[i]*1;
-						Fin Si
-					Fin Para
-					Leer arr;
-					Para i<-0 Hasta arr.length Con Paso i+1 Hacer
-						sum=sum+arr[i];
-					Fin Para
-
-					Si sum%10==0 Entonces
-						msg='Tarjeta de crédito válida';
-					SiNo
-						msg='Tarjeta de crédito no válida';
-					Fin Si
-				Fin Funcion
-				Escribir isValidCard(numCard);
-				op<-true;
-			Fin Si
-		Fin Si
-	Hasta Que op==false;
-FinAlgoritmo
+![recursos](assets/pseudocodigoCard.PNG)

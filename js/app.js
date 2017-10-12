@@ -7,7 +7,7 @@ do{
   var arr=numCard.split('');
   //Determina si la primera posicion del arreglo ingresado es vacío o no se ha ingresado nada al como numCard
   // o el num ingresado no tiene 16 dígitos
-  if(arr[0]==' '|| numCard==''|| numCard.length!==16 ){
+  if(arr[0]==' '|| numCard==''|| numCard.length!==16){
     var op=false;
     alert('Error ingrese un numero');
   }else{
@@ -74,8 +74,6 @@ do{
       }
       //Muestro en la página si la Tarjeta es válida o no
       document.write('<br> '+ isValidCard(numCard));
-      //Muestro en la página si la Tarjeta es válida o no
-    //  console.log(isValidCard(numCard));
       //Cambia el valor de op a verdadero y con eso termina mi ciclo while y acaba el programa
       op=true;
     }else{

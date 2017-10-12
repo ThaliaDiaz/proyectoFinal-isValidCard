@@ -9,6 +9,7 @@ do{
   // o el num ingresado no tiene 16 dígitos
   if(arr[0]==' '|| numCard==''|| numCard.length!==16 ){
     var op=false;
+    alert('Error ingrese un numero');
   }else{
   //Determina si la primera posicion del arreglo es un número si es así ingresa a ralizar toda mi función
     //El parseInt me sirve para convertir lo que hasta ahora es un digito de un número pero en cadena. Ejm "4"--> 4
@@ -63,10 +64,10 @@ do{
         //Pregunta si la suma del arreglo actual es divisible entre 10
         if(sum%10===0){
         //Si es divisible muestra que es un  tarjeta válida.
-        msg="Tarjeta de crédito válida";
+        msg=alert("Tarjeta de crédito válida");
       }else{
         //Si no es divisible entre 10 muestra tarjeta no válida
-        msg="Tarjeta de crédito no válida";
+        msg=alert("Tarjeta de crédito no válida");
       }
         //Retorna el mensaje que esta almacenado en msg
         return msg;

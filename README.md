@@ -16,7 +16,7 @@ El usuario no debe poder ingresar un campo vacío
 
 ### DIAGRAMA DE FLUJO
 
-![recursos](assets/diagrama.jpg)
+![recursos](assets/diagrama.PNG)
 
 ### PSEUDOCODIGO
 

@@ -64,10 +64,12 @@ do{
         //Pregunta si la suma del arreglo actual es divisible entre 10
         if(sum%10===0){
         //Si es divisible muestra que es un  tarjeta válida.
-        msg=alert("Tarjeta de crédito válida");
+        alert("Tarjeta de crédito válida");
+        msg="Tarjeta de crédito válida";
       }else{
         //Si no es divisible entre 10 muestra tarjeta no válida
-        msg=alert("Tarjeta de crédito no válida");
+        alert("Tarjeta de crédito no válida");
+        msg="Tarjeta de crédito no válida";
       }
         //Retorna el mensaje que esta almacenado en msg
         return msg;
